@@ -10,7 +10,6 @@ With the Web Services, it is possible, for example to:
 - manage fax boxes delegations
 - manage phone books
 
-[Click here]() to access the Postman collection
 
 
 ## Configuration
