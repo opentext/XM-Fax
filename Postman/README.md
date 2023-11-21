@@ -10,18 +10,20 @@ With the Web Services, it is possible, for example to:
 - manage fax boxes delegations
 - manage phone books
 
+[Click here]() to access the Postman collection
 
 
 ## Configuration
 
 Drop the *XM Fax - OpenText.postman_collection.json* file into Postman to import the requests collection.
 
-Drop the *XM Fax Cloud Env.postman_environment.json* file into Postman to import the environment, then edit the following variables:
+Drop the *XM Fax Cloud Env.postman_environment.json* file into Postman to import the environment, then edit the *Current value* column to set the following variables:
 
 - **account\_name**: Your enterprise account name.
 - **auth\_token**: An access token key generated from your enterprise account. Can be found in the cloud portal.
 - **app\_user_id**: A user account to be used to make the requests.
-- **api\_endpoint**: You need to run the request `Get Endpoint URL` located inside the *XM Fax - OpenText\Cloud* collection. This will ensure you are making your request on the right server endpoint corresponding to your enterprise region.
+- **api\_endpoint**: You need to run the request `Get Endpoint URL` located inside the *XM Fax - OpenText* collection and *Cloud* folder. This will ensure you are making your request on the right server endpoint corresponding to your enterprise region.
+- **fax\_number**: A fax number to send a fax to when running the requests.
 
 
 ## Running the samples
